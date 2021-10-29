@@ -1,6 +1,14 @@
 import { Component } from '@angular/core';
 
 /**
+ *
+ * 1)
+ * Benutzerliste anzeigen:
+ * - Lade die Benutzerliste von der REST API https://jsonplaceholder.typicode.com/users
+ * - Zeige Informationen der Benutzer (dessen Name, Benutzername, Email) in einer Liste an
+ *
+ * 2)
+ * Passwort ändern:
  * - Baue in der Komponente "password-change" ein entsprechendes Passwort ändern - Formular auf.
  *   Es beinhaltet 3 Eingabefelder (altes Passwort, neues Passwort, neues Passwort wiederholen).
  *   Ferner besteht ein Submit-Button zur Bestätigung des Formulars.
